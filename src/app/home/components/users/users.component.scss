@@ -1,0 +1,23 @@
+.users {
+  background-color: #0f171b;
+  padding: 2%;
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0;
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    .name {
+      color: white;
+    }
+    .btn-read {
+      background-color: white;
+      font-weight: bold;
+    }
+  }
+}

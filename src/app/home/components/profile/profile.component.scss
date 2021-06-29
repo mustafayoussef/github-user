@@ -1,0 +1,58 @@
+.profile {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  .details {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    .profile-img {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      border: 5px solid goldenrod;
+      margin: 2% 0;
+    }
+    p {
+      font-size: 20px;
+    }
+    .git {
+      background-color: #1b2124;
+      padding: 8px;
+      border-radius: 20px;
+      margin: 2% 0;
+      a {
+        color: #f49824;
+        text-decoration: none;
+      }
+    }
+    .follow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #39403e;
+      padding: 2px 15px;
+      border-radius: 20px;
+      .followers,
+      .following {
+        padding: 5px;
+        .icon {
+          margin-right: 10px;
+        }
+        p {
+          margin-top: 2px;
+          font-size: 15px;
+        }
+      }
+      .followers {
+        border-right: 1px solid #434543;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<div class="users">
+    <div class="row">
+        <div class="col-sm-4 col-md-3 col-lg-2  user" *ngFor="let user of users">
+            <img [src]="user.avatar_url" alt="" />
+            <h3 class="name">{{ user.login | titlecase }}</h3>
+            <a [routerLink]="['/profile', user.id]" class="btn btn-read">Read More</a>
+        </div>
+    </div>
+</div>
